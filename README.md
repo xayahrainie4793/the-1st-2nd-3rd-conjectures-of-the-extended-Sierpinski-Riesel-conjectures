@@ -1,0 +1,1 @@
+# the-1st-2nd-3rd-conjectures-of-the-extended-Sierpinski-Riesel-conjectures
