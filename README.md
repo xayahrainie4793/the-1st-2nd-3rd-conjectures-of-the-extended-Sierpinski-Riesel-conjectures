@@ -21,9 +21,5 @@ k-values that make a full covering set with all or partial algebraic factors are
 k-values that are a multiple of base (b) and where (k+-1)/gcd(k+-1,b-1) (+ for Sierpinski, - for Riesel) is not prime are included in the conjectures but excluded from testing.
 Such k-values will have the same prime as k / b.
 
-See "table of Riesel problems.txt" and "table of Sierpinski problems.txt" for:
+This project is to solve the 1st, 2nd, and 3rd Sierpinski/Riesel conjectures for bases b <= 32 (except 2, 3, 6, 15, 22, 24, 28, 30, which have larger CK) and bases b = 64, 128, 256.
 
-* The covering set of the conjectured k for each Sierpinski/Riesel base.
-* The k's that make a full covering set with all or partial algebraic factors for each Sierpinski/Riesel base.
-* The remaining k's to find prime for each Sierpinski/Riesel base.
-* The top 10 k's with largest first primes for each Sierpinski/Riesel base.
