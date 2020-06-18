@@ -16,11 +16,11 @@ With this effort, we aim to prove many of the Riesel and Sierpinski conjectures 
 
 Project definition:
 
-For every base (b) for the forms (k\*b^n+1)/gcd(k+1,b-1) and (k\*b^n-1)/gcd(k-1,b-1), there exists a unique value of k for each form that has been conjectured to be the lowest 'Sierpinski value' (+1 form) or 'Riesel value' (-1 form) that is composite for all values of n >= 1.
+For every base (b) for the forms (k\*b^n+1)/gcd(k+1,b-1) and (k\*b^n-1)/gcd(k-1,b-1), there exists a unique value of k for each form that has been conjectured to be the 1st, 2nd, and 3rd lowest 'Sierpinski value' (+1 form) or 'Riesel value' (-1 form) that is composite for all values of n >= 1.
 
 Goal:
 
-Prove the conjectures by finding at least one (probable) prime (if only PRP, prove its primality) for all lower values of k. Many of the conjectures have already been proven but much more work is needed to prove additional bases. Proving them all is not possible but we aim to prove many of them.
+Prove the conjectures by finding at least one (probable) prime (if only PRP, prove its primality) for all k lower than the 3rd lowest Sierpinski/Riesel value (except k equal to the 1st or 2nd Sierpinski/Riesel value). Many of the conjectures have already been proven but much more work is needed to prove additional bases. Proving them all is not possible but we aim to prove many of them.
 
 * There are many conjectures where only ONE k needs a (probable) prime (and many more that need only two). If you find it, you could be the one to prove a conjecture! This is a big deal to us here.
 * Algebraic factors have been found for many k's, which prove them composite for all n, allowing them to be removed from searches.
@@ -41,4 +41,4 @@ See "table of Riesel problems.txt" and "table of Sierpinski problems.txt" for:
 * The remaining k's to find prime for each Sierpinski/Riesel base.
 * The top 10 k's with largest first primes for each Sierpinski/Riesel base.
 
-This project is to solve the Sierpinski/Riesel conjectures for bases b <= 128 and bases b = 256, 512, 1024. (this project will be extended to bases b <= 2048 in future)
+This project is to solve the 1st, 2nd, and 3rd Sierpinski/Riesel conjectures for bases b <= 32 and bases b = 64, 128, 256. (this project will be extended to bases b <= 1024 in future)
