@@ -12,7 +12,7 @@ Finding and proving the smallest k such that (k\*b^n+1)/gcd(k+1,b-1) is not prim
 Extended Riesel problem base b:
 Finding and proving the smallest k such that (k\*b^n-1)/gcd(k-1,b-1) is not prime for all integers n>=1.
 
-With this effort, we aim to prove many of the Riesel and Sierpinski conjectures for bases <= 128 and bases 256, 512, 1024.
+With this effort, we aim to prove many of the Riesel and Sierpinski conjectures for bases <= 32 and bases 64, 128, 256.
 
 Project definition:
 
@@ -33,12 +33,5 @@ k-values that make a full covering set with all or partial algebraic factors are
 
 k-values that are a multiple of base (b) and where (k+-1)/gcd(k+-1,b-1) (+ for Sierpinski, - for Riesel) is not prime are included in the conjectures but excluded from testing.
 Such k-values will have the same prime as k / b.
-
-See "table of Riesel problems.txt" and "table of Sierpinski problems.txt" for:
-
-* The covering set of the conjectured k for each Sierpinski/Riesel base.
-* The k's that make a full covering set with all or partial algebraic factors for each Sierpinski/Riesel base.
-* The remaining k's to find prime for each Sierpinski/Riesel base.
-* The top 10 k's with largest first primes for each Sierpinski/Riesel base.
 
 This project is to solve the 1st, 2nd, and 3rd Sierpinski/Riesel conjectures for bases b <= 32 and bases b = 64, 128, 256. (this project will be extended to bases b <= 1024 in future)
